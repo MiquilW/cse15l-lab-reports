@@ -5,7 +5,7 @@
 `print("I'm Michael")`
 
 * Go to google:
-[Link](google.com)
+[Link](https://www.google.com/)
 
 1. one
 2. two
