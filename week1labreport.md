@@ -2,9 +2,9 @@
 ---
 # How to gain remote access to your ieng6 account
 ## for incoming CSE15L students
-* You will first need to access your course-specific account.
+* You will first need to access your course-specific account
 * Look it up through this link [here](https://sdacs.ucsd.edu/~icc/index.php).
-* Once you find it, you will need to reset your password. 
+* Once you find it, you will need to reset your password 
 * Click on *cs15lwi23xxx resources* (where the xxx is 3 random letters)
 * You will be prompted to set your password if you need to
 * If your password has been reset correctly, it should look like this:
@@ -15,7 +15,21 @@
 * Now, you can install Visual Studio Code
 * I already had it installed
 * If you don't, go to this link [here](https://code.visualstudio.com/download)
+* This should be displayed:
 
-![Image]()
+![Image](installvscode.png)
 
 * Click on your designated OS and follow instructions displayed to install
+* Once installed, open VSCode
+* It should look like this (possibly in light mode):
+
+![Image](vscode.png)
+
+* Now if your password has fully reset, you are ready to remotely connect
+* If you are on Windows, you should install `git` [here](https://git-scm.com/downloads)
+* Once that is done, open up a Bash terminal
+* To login to your remote account, type `ssh cs15lwi23xxx@ieng6.ucsd.edu` where the `xxx` is your 3 letters
+* Once you enter that in, there will be a long error-like message because it is your first time connecting to the server; just enter in yes to bypass it
+* Now, you should be connected to the remote! Your terminal should look something like this:
+
+![Image](login.png)
