@@ -27,7 +27,7 @@
 
 * Now if your password has fully reset, you are ready to remotely connect
 * If you are on Windows, you should install `git` [here](https://git-scm.com/downloads)
-* Once that is done, open up a Bash terminal
+* Once that is done, open up a Bash terminal within VSCode
 * To login to your remote account, type `ssh cs15lwi23xxx@ieng6.ucsd.edu` where the `xxx` is your 3 letters
 * Once you enter that in, there will be a long error-like message because it is your first time connecting to the server; just enter in yes to bypass it
 * Now, you should be connected to the remote! Your terminal should look something like this:
@@ -36,5 +36,18 @@
 
 * The commands you place are now going to be run on the remote server
 * Now finally you can enter in some commands to play around with the remote terminal
-* There are many commands you can try like: `cd` `ls` `cat` and more you can search up
-* 
+* There are many commands you can try like: `cd`, `ls`, `cat`, `pwd`, and more you can search up
+* `cd` will change the directory to a specified directory of your choosing
+* `ls` will list the files inside your current directory
+* `cat` will take different directories and display their contents concatenated together in your terminal
+* `pwd` will display your current directory in the terminal
+* After messing around with changing directories and such, you can type `cd ~` to return to your home directory
+* Here is an example of that:
+
+![Image](pwd.png)
+
+* As you can see, after entering `pwd`, we are placed back into the home directory
+* When you are done, you can log out of the remote server
+* To do this, press Ctrl and D or type `exit` in the terminal
+* And you are done! You now know how to remotely access your account!
+* Thank you for reading
