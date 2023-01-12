@@ -33,3 +33,8 @@
 * Now, you should be connected to the remote! Your terminal should look something like this:
 
 ![Image](login.png)
+
+* The commands you place are now going to be run on the remote server
+* Now finally you can enter in some commands to play around with the remote terminal
+* There are many commands you can try like: `cd` `ls` `cat` and more you can search up
+* 
