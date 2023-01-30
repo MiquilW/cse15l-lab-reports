@@ -16,3 +16,7 @@ For this output, we call the `handleRequest` method in the `StringServer.java` f
 Here is me using `/add-message` to display "is the greatest of all time" on the website:
 
 ![SecondLine](secondline.png)
+
+For this output aswell, we call the `handleRequest` method in the `StringServer.java` file. It sees the path contains `add-message?s=` and adds the query and a new line to the `displayString`. The value of the `displayString` before the new query is concatanated, is "joe politz (NEW LINE)". Now, the `displayString` is changed to have "joe politz (NEW LINE) is the greatest of all time (NEW LINE)".
+
+# Part 2
