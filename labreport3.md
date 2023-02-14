@@ -30,7 +30,7 @@ Output:
 This command is searching case insensitively for berlitz (the one we want is uncapitilized, but we entered is capitilized). 
 This is useful because we may forget whether we capitilized the name of a file or directory.
 
-**Source: https://adamtheautomator.com/bash-find/**
+**Source: [adamtheautomator](https://adamtheautomator.com/bash-find/)**
 
 ## 2. `find -type f/d`
 ### Example 1:
@@ -72,7 +72,7 @@ travel_guides/berlitz2
 This command is searching in every directory within `written_2` for anything that is a directory. This could be useful if you need to know what directories 
 exist in a cluttered space.
 
-**Source: https://adamtheautomator.com/bash-find/**
+**Source: [adamtheautomator](https://adamtheautomator.com/bash-find/)**
 
 ## 3. `find -not -name`
 ### Example 1:
@@ -126,7 +126,7 @@ Output:
 This command is searching in for anything that does **not** start with a lower-case c. This could be useful if you need to filter out a mass amount of files that
 all start with the same letter.
 
-**Source: https://adamtheautomator.com/bash-find/**
+**Source: [adamtheautomator](https://adamtheautomator.com/bash-find/)**
 
 ## 4. `find -prune`
 ### Example 1:
@@ -162,4 +162,4 @@ non-fiction/OUP/Rybczynski
 This command is searching for anything in a specific directory and ONLY that directory. This could be useful if a lot of files are similarly named and you are
 searching for just the parent directories to reduce the clutter.
 
-**Source: https://adamtheautomator.com/bash-find/**
+**Source: [adamtheautomator](https://adamtheautomator.com/bash-find/)**
