@@ -30,7 +30,7 @@ Output:
 This command is searching case insensitively for berlitz (the one we want is uncapitilized, but we entered is capitilized). 
 This is useful because we may forget whether we capitilized the name of a file or directory.
 
-**Source: [adamtheautomator](https://adamtheautomator.com/bash-find/)**
+**Source: https://adamtheautomator.com/bash-find/
 
 ## 2. `find -type f/d`
 ### Example 1:
@@ -72,7 +72,7 @@ travel_guides/berlitz2
 This command is searching in every directory within `written_2` for anything that is a directory. This could be useful if you need to know what directories 
 exist in a cluttered space.
 
-**Source: [adamtheautomator](https://adamtheautomator.com/bash-find/)**
+**Source: https://adamtheautomator.com/bash-find/
 
 ## 3. `find -not -name`
 ### Example 1:
@@ -96,8 +96,7 @@ Output:
 ./travel_guides/berlitz1
 ./travel_guides/berlitz2
 ```
-This command is searching for anything that is **not** a `.txt` file. This could be useful if you need to avoid `.txt` files if they are cluttering a space where you
-need to find something else.
+The `-not` command allows you to search in files and directories for everything except what you write after the `-not` operator. It will filter out everything you don't want to see, and show everything else in the file/directory. This command is searching for anything that is **not** a `.txt` file. This could be useful if you need to avoid `.txt` files if they are cluttering a space where you need to find something else.
 
 ### Example 2:
 
@@ -126,7 +125,7 @@ Output:
 This command is searching in for anything that does **not** start with a lower-case c. This could be useful if you need to filter out a mass amount of files that
 all start with the same letter.
 
-**Source: [adamtheautomator](https://adamtheautomator.com/bash-find/)**
+**Source: https://adamtheautomator.com/bash-find/
 
 ## 4. `find -prune`
 ### Example 1:
@@ -162,4 +161,4 @@ non-fiction/OUP/Rybczynski
 This command is searching for anything in a specific directory and ONLY that directory. This could be useful if a lot of files are similarly named and you are
 searching for just the parent directories to reduce the clutter.
 
-**Source: [adamtheautomator](https://adamtheautomator.com/bash-find/)**
+**Source: https://adamtheautomator.com/bash-find/
